@@ -9,7 +9,7 @@ const supabaseClient = createClient('https://ryvdxsistudfrddmabbx.supabase.co' ,
 async function generateEmbeddings() {
 //Initialise OpenAI API
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-//Create custom data
+//Create some temporary hardcoded custom data
 const documents = [
     '5524 - 1957 - Graduation - Single - 58138',
     '2174 - 1954 - Graduation - Single - 46344',
